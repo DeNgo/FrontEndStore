@@ -50,6 +50,7 @@ h1{
 }
 h2{
     font-size: 3.2rem;
+    line-height: 1.4; /* Ajusta la separación entre líneas */
 }
 h3{
     font-size: 2.4rem;
@@ -109,9 +110,6 @@ h3{
     padding: 1rem;
 }
 
-.producto__informacion{
-
-}
 .producto__nombre{
     font-size: 3rem;
 }
@@ -210,9 +208,9 @@ gap: 2rem;
     border-style: solid;
     background-color: transparent;
     color: var(--blanco);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 option{
     color: #222222;
